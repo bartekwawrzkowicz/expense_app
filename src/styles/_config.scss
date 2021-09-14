@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap');
 
-$main-font-color: rgb(27, 27, 27);
-$main-background-color: rgb(181, 207, 181);
+$main-font-color: #ffffff;
+$main-background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(15,15,94,1) 50%, rgba(0,0,0,1) 100%);
+$expense-background-color: #2d2d86;
+$expense-box-shadow-color: #696ac2;
 
 $main-font-style: ('Cabin Sketch', cursive);
 

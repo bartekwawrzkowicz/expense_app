@@ -1,0 +1,46 @@
+@import 'config';
+
+.expense-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+    background-color: $expense-background-color;
+    box-shadow: 2px 2px 2px $expense-box-shadow-color;
+    border-radius: 10px;  
+    width: auto;
+
+    &__date,
+    &__title,
+    &__price {
+        margin: 10px 3rem;
+        flex: 1;
+    }
+
+    &__date, 
+    &__title {
+        color: #e0e0ff;
+        text-shadow: 1px 1px 1px #000000;
+    }
+
+    &__date {
+        margin-left: 10px;
+    }
+
+    &__price {
+        background-color: $expense-box-shadow-color;
+        border: 1px solid #ffffff;
+        border-radius: 10px;
+        margin-right: 20px;
+        color: #120150;
+        padding: 10px;
+        text-align: center;
+    }
+
+    &__title {
+        font-size: 30px;
+        min-width: 25%;
+    }
+
+}
