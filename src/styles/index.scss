@@ -10,9 +10,5 @@ body, html {
   background-color: $main-background-color;
   color: $main-font-color;
   font-family: $main-font-style;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   font-size: 40px;
 }

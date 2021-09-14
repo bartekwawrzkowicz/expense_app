@@ -4,3 +4,10 @@ $main-font-color: rgb(27, 27, 27);
 $main-background-color: rgb(181, 207, 181);
 
 $main-font-style: ('Cabin Sketch', cursive);
+
+.main-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
