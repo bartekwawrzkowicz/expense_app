@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/ExpenseDate.scss';
+import '../../styles/ExpenseDate.scss';
 
 const ExpenseDate = props => {
 

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ExpenseDate from './ExpenseDate';
-import '../styles/ExpenseItem.scss';
+import '../../styles/ExpenseItem.scss';
 
 const ExpenseItem = props => {
 
