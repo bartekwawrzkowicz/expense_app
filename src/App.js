@@ -31,12 +31,16 @@ const App = () => {
     },
   ]
 
+  const addExpenseHandler = expense => {
+
+  }
+
 
   return (
     <div className="main-column">
       <p className="main-heading">WYDATKI</p>
       <p className="main-heading__decoration">***** ***</p>
-      <NewExpense />
+      <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses} />
 
     </div>
