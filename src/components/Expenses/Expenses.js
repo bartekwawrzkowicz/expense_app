@@ -5,6 +5,8 @@ import ExpenseItem from './ExpenseItem';
 
 const Expenses = props => {
 
+    const expensesMessage = <p>Brak wydatków</p>
+
     const [filteredYear, setFilteredYear] = useState('2021')
 
     const filterChangeHandler = selectedYear => {
@@ -20,7 +22,7 @@ const Expenses = props => {
     return (
         <div className="expenses">
             <ExpensesFilter selected={filteredYear} onFilterChange={filterChangeHandler} />
-            {filteredExpenseItems}
+            {filteredExpenseItems.length === 0 ? expensesMessage : filteredExpenseItems}
         </div>
     );
 }
